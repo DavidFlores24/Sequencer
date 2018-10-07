@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="D7j2Et" name="JuceBasicAudio" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.JuceBasicAudio" includeBinaryInAppConfig="1"
+              jucerVersion="5.3.2">
+  <MAINGROUP id="oht8lM" name="JuceBasicAudio">
+    <GROUP id="{956C6E0C-B36F-1A18-0A05-3D3C7CED70E8}" name="Source">
+      <FILE id="aFI4LZ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <GROUP id="{3A4AC142-5599-4F61-A7EF-8B0E28B125D7}" name="DrumSequencer">
+        <FILE id="QwDpc0" name="DrumSequencerUI.cpp" compile="1" resource="0"
+              file="Source/DrumSequencer/DrumSequencerUI.cpp"/>
+        <FILE id="xE6jdF" name="DrumSequencerUI.hpp" compile="1" resource="0"
+              file="Source/DrumSequencer/DrumSequencerUI.hpp"/>
+        <FILE id="l9rBmt" name="Sequencer.cpp" compile="1" resource="0" file="Source/DrumSequencer/Sequencer.cpp"/>
+        <FILE id="oml5fw" name="Sequencer.hpp" compile="1" resource="0" file="Source/DrumSequencer/Sequencer.hpp"/>
+        <FILE id="cRklBr" name="SequencerUI.cpp" compile="1" resource="0" file="Source/DrumSequencer/SequencerUI.cpp"/>
+        <FILE id="BEGXwq" name="SequencerUI.hpp" compile="1" resource="0" file="Source/DrumSequencer/SequencerUI.hpp"/>
+      </GROUP>
+      <GROUP id="{16BF6508-E455-A68D-960E-FA64C3CF02B2}" name="MelodySequencer">
+        <FILE id="SHHAy3" name="Melody.cpp" compile="1" resource="0" file="Source/MelodySequencer/Melody.cpp"/>
+        <FILE id="ThM0r5" name="Melody.hpp" compile="1" resource="0" file="Source/MelodySequencer/Melody.hpp"/>
+        <FILE id="EmzoBK" name="MelodySequencerUI.cpp" compile="1" resource="0"
+              file="Source/MelodySequencer/MelodySequencerUI.cpp"/>
+        <FILE id="s2083z" name="MelodySequencerUI.hpp" compile="1" resource="0"
+              file="Source/MelodySequencer/MelodySequencerUI.hpp"/>
+        <FILE id="gw4if5" name="MelodyUI.cpp" compile="1" resource="0" file="Source/MelodySequencer/MelodyUI.cpp"/>
+        <FILE id="JmCjFS" name="MelodyUI.hpp" compile="1" resource="0" file="Source/MelodySequencer/MelodyUI.hpp"/>
+      </GROUP>
+      <GROUP id="{58FA9A73-EF19-33AF-1978-8259EDED0DB2}" name="audio">
+        <FILE id="HoaZl8" name="Audio.cpp" compile="1" resource="0" file="Source/audio/Audio.cpp"/>
+        <FILE id="c3wYul" name="Audio.h" compile="1" resource="0" file="Source/audio/Audio.h"/>
+      </GROUP>
+      <GROUP id="{5A4D8E6D-A56B-1536-12CC-470C3970C7B6}" name="ui">
+        <FILE id="FuKa63" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/ui/MainComponent.cpp"/>
+        <FILE id="LjdyxI" name="MainComponent.h" compile="1" resource="0" file="Source/ui/MainComponent.h"/>
+      </GROUP>
+      <GROUP id="{CC2543E5-E1C6-D322-B06E-1F46DF65D622}" name="BaseSequencer">
+        <FILE id="gFnKoa" name="BaseSequencer.cpp" compile="1" resource="0"
+              file="Source/BaseSequencer/BaseSequencer.cpp"/>
+        <FILE id="phLOqu" name="BaseSequencer.hpp" compile="1" resource="0"
+              file="Source/BaseSequencer/BaseSequencer.hpp"/>
+      </GROUP>
+      <GROUP id="{DF86B1F2-1785-049C-E15E-19910A90CA1D}" name="ui">
+        <FILE id="bg96hh" name="BaseSequencerUI.cpp" compile="1" resource="0"
+              file="Source/ui/BaseSequencerUI.cpp"/>
+        <FILE id="XGm9qB" name="BaseSequencerUI.hpp" compile="1" resource="0"
+              file="Source/ui/BaseSequencerUI.hpp"/>
+        <FILE id="UHOgxD" name="ControlsUI.cpp" compile="1" resource="0" file="Source/ui/ControlsUI.cpp"/>
+        <FILE id="Dn3n8I" name="ControlsUI.hpp" compile="1" resource="0" file="Source/ui/ControlsUI.hpp"/>
+        <FILE id="Ru6dnT" name="MixerUI.cpp" compile="1" resource="0" file="Source/ui/MixerUI.cpp"/>
+        <FILE id="fbVsIX" name="MixerUI.hpp" compile="1" resource="0" file="Source/ui/MixerUI.hpp"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{0853F26A-078B-25A7-991F-D0305DEE9645}" name="Sounds">
+      <GROUP id="{03D0BB0F-F794-5EC8-704B-910E5212FDE6}" name="Drumkit">
+        <FILE id="mb5C3b" name="Clap.wav" compile="0" resource="1" file="Sounds/Drumkit/Clap.wav"
+              xcodeResource="1"/>
+        <FILE id="qOlyvG" name="HiHat.wav" compile="0" resource="1" file="Sounds/Drumkit/HiHat.wav"
+              xcodeResource="1"/>
+        <FILE id="SImvSM" name="Kick.wav" compile="0" resource="1" file="Sounds/Drumkit/Kick.wav"
+              xcodeResource="1"/>
+        <FILE id="zSUvQz" name="Snare.wav" compile="0" resource="1" file="Sounds/Drumkit/Snare.wav"
+              xcodeResource="1"/>
+      </GROUP>
+      <GROUP id="{55E4EDC7-1C07-FFD6-797A-E99A48EB1AF7}" name="Melody">
+        <FILE id="Y99HxL" name="a.wav" compile="0" resource="1" file="Sounds/Melody/a.wav"
+              xcodeResource="1"/>
+        <FILE id="QtfCcy" name="b.wav" compile="0" resource="1" file="Sounds/Melody/b.wav"
+              xcodeResource="1"/>
+        <FILE id="lNMxbd" name="c.wav" compile="0" resource="1" file="Sounds/Melody/c.wav"
+              xcodeResource="1"/>
+        <FILE id="ZkRYM7" name="d.wav" compile="0" resource="1" file="Sounds/Melody/d.wav"
+              xcodeResource="1"/>
+        <FILE id="OVrvNQ" name="e.wav" compile="0" resource="1" file="Sounds/Melody/e.wav"
+              xcodeResource="1"/>
+        <FILE id="bzqTgY" name="e2.wav" compile="0" resource="1" file="Sounds/Melody/e2.wav"
+              xcodeResource="1"/>
+        <FILE id="qR5k84" name="fSharp.wav" compile="0" resource="1" file="Sounds/Melody/fSharp.wav"
+              xcodeResource="1"/>
+        <FILE id="CEHgt8" name="g.wav" compile="0" resource="1" file="Sounds/Melody/g.wav"
+              xcodeResource="1"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="JuceBasicAudio"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="JuceBasicAudio"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../Users/David/Documents/Programming/Frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Programming/Frameworks/JUCE_UPDATE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
